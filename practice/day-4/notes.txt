@@ -1,0 +1,27 @@
+# css=cascading style sheet
+# css--> which can control the prsentation of website's or web application's structure & content
+# css--> A class based stylesheet language
+
+# css basic syntex:
+   .Demo{
+	box-sizing: border-box;
+    {
+
+    *here .Demo-->selector,property-->box-sizing,value-->border-box
+# you can call css class by id(one-time) or class(multiple-time),if called by id then put # before selector name
+# you can set color by 3 ways:
+  1.rgb(0,0,255)[0-255]
+  2.#af09[a-f,0-9]
+  3.direct(color: red;)
+# when you give height or width of any div,this includes padding & border,
+  *padding-->moving insidely the content of div but will increase height & width of div(same the border like)
+  *box-sizing: border-box;---> handle the extra increase of height & width
+  *div--->is a wrapper or block
+# to create webpage's layout we use grid system,
+  *according to grid system-->first let the page width 100%,then divide with 12 column,then set elements,
+  *for this setting per column width 8.33%
+# if css class name has two word,put hyfen(-) between them
+# pseudo class is a spacial class which remains active in spacial cases,
+  *there has two types of classes:
+   1.pseudo classes(change all portion) like--> .row1:hover{}
+   2.pseudo element classes(change partially) like--> .row2:after{} 

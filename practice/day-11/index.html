@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- <p>Hello h</p>
+	<p>Hello k</p>
+	<p>Hello s</p>
+	<p>Hello c</p>
+	<p>Hello e</p>
+
+
+	<a href="">link one</a>
+	<a href="">link two</a>
+	<a href="">link three</a>
+	<a href="">link four</a>
+	<a href="">link five</a> -->
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 m-auto">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group row">
+							<label class="col-form-label col-sm-3">First Name</label>
+							<div class="col-sm-9">
+								<input type="text" name="first_name" id="firstName">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-form-label col-sm-3" id="z">Last Name</label>
+							<div class="col-sm-9">
+								<input type="text" name="last_name" id="lastName">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-form-label col-sm-3">Full Name</label>
+							<div class="col-sm-9">
+								<input type="text" name="full_name" id="fullName">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-from-label col-sm-3"></label>
+							<div class="col-sm-9">
+								<!-- <input type="submit" name="btn" id="btn" onclick="alert('Hi,Ariyan Khan');" class="btn btn-success" value="Submit"> -->
+								<input type="submit" name="btn" id="btn" class="btn btn-success" value="Submit">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 m-auto">
+				<div class="card">
+					<div class="card-body">
+						<div class="form-group row">
+							<label class="col-form-label col-sm-5">First Number</label>
+							<div class="col-sm-7">
+								<input type="text" name="first_number" id="firstNumber">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-form-label col-sm-5" id="z">Second Number</label>
+							<div class="col-sm-7">
+								<input type="text" name="second_number" id="secondNumber">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-form-label col-sm-5">Result</label>
+							<div class="col-sm-7">
+								<input type="text" name="result" id="result">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label class="col-from-label col-sm-5"></label>
+							<div class="col-sm-7">
+								<!-- <input type="submit" name="btn" id="btn" onclick="alert('Hi,Ariyan Khan');" class="btn btn-success" value="Submit"> -->
+								<input type="submit" name="btn" id="addition" class="btn btn-success" value="+">
+								<input type="submit" name="btn" id="subtraction" class="btn btn-success" value="-">
+								<input type="submit" name="btn" id="multiplication" class="btn btn-success" value="*">
+								<input type="submit" name="btn" id="division" class="btn btn-success" value="/">
+								<input type="submit" name="btn" id="remainder" class="btn btn-success" value="%">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+<!-- 	<script>
+
+
+		var btnElement=document.getElementById('btn');
+		//alert(btnElement);
+		btnElement.onclick=function(){
+			//alert('Hi,Ariyan');
+			var x=document.getElementById('firstName').value;
+			//alert(x);
+			var y=document.getElementById('lastName').value;
+			var z=x+' '+y;
+			//alert(z);
+			document.getElementById('fullName').value=z;
+		};//this is an anonymous function
+
+
+
+
+
+
+
+
+		//var paragraphElement=document.getElementsByTagName('p');
+		//var paragraphElement=document.getElementsByTagName('a');
+
+		// for(var key in paragraphElement){
+		// 	document.write(paragraphElement[key].innerHTML+'<br/>');
+		// }
+
+		//document.write('<br/>'+paragraphElement[2].innerHTML);
+
+		// for(var x=0;x<paragraphElement.length;x++){
+		// 	document.write(paragraphElement[x].innerHTML+'<br/>');
+		// }
+		
+		// var x;
+		// x=10;
+		// document.write(x);
+
+		// work with array in java scirpt
+		// var arr=new Array();
+		// var arr2=Array();
+		// var arr3=[];
+
+
+		// var data=[];
+
+		// data[0]=10;
+		// data[1]=20;
+		// data[2]=30;
+
+
+		// data["name"]="Mobin";
+		// data["city"]="Sylhet";
+		// data["country"]="Bangladesh";
+
+		// document.write(data[2]);
+		// document.write(data[20]);
+		// document.write(data["name"]);
+
+		// for(var x in data){
+		// 	//document.write(x+"<br/>");
+		// 	document.write(data[x]+"<br/>");
+		// }
+
+		// //or defining
+
+		// var data2=[10,20,30,40,50]; //numeric array
+		// var data3=["Mobin","Sylhet","Bangladesh"]; // associative array
+
+		// document.write(data3[1]);
+
+
+		// var data=["Mobin","Dhaka","Bangladesh"];
+		// document.write(data.length-1);
+
+
+		// function demo(){
+		// 	document.write("Hello Banladesh");
+		// }
+		// document.write('<br/>==========<br/>');
+		// demo();
+		// document.write('<br/>==========<br/>');
+		// demo();
+		// document.write('<br/>==========<br/>');
+		// demo();
+
+
+		// function demo(){
+		// 	var firstName='Ariyan';
+		// 	var lastName='Khan';
+		// 	var fullName=firstName+' '+lastName;
+		// 	document.write(fullName);
+		// }
+		// document.write('<br/>==========<br/>');
+		// demo();
+		// document.write('<br/>==========<br/>');
+		// demo();
+		// document.write('<br/>==========<br/>');
+		// demo();
+
+
+		// function demo(firstName,lastName){
+		// 	var fullName=firstName+' '+lastName;
+		// 	document.write(fullName);
+		// }
+		// document.write('<br/>==========<br/>');
+		// demo('Ariyan','Khan');
+		// document.write('<br/>==========<br/>');
+		// demo('Palash','Barmon');
+		// document.write('<br/>==========<br/>');
+		// demo('Tayef','Rahman');
+
+
+
+	</script> -->
+
+
+
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/poppers.js"></script>
+	<script src="js/my-script.js"></script>
+</body>
+</html>

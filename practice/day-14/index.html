@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Home</title>
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+	<form action="" method="post" id="registrationForm">   <!-- action= to define path,method=to say 					which path -->  
+		<table>
+			<tr>
+				<th>First Name</th>
+				<td><input type="text" name="first_name" id="firstName" placeholder="enter the first name">
+					<span id="firstNameError" style="color: red;"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Last Name</th>
+				<td><input type="text" name="last_namet" id="lastName" placeholder="enter the last name">
+					<span id="lastNameError" style="color: red;"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Email Address</th>
+				<td><input type="email" name="email_address" id="emailAddress" placeholder="enter the email address">
+					<span id="emailAddressError" style="color: red;"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Password</th>
+				<td><input type="password" name="password" id="ps" placeholder="enter the password">
+					<span id="passwordError" style="color: red;"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Confirm Passsword</th>
+				<td><input type="password" name="confirm_password" id="confirmPassword" placeholder="confirm the password">
+					<span id="confirmPasswordError" style="color: red;"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>District Name</th>
+				<td>
+					<select name="district_name" id="districtName">
+						<option value="">-----Select One-----</option>
+						<option value="Sylhet">Sylhet</option>
+						<option value="Dhaka">Dhaka</option>
+						<option value="Chittagong">Chittagong</option>
+					</select>
+					<span id="selectDistrictError" style="color: red;"></span>
+				</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td><input type="submit" name="btn" id="btn" value="SubmiT"></td>
+			</tr>
+		</table>
+	</form>
+
+
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/poppers.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/my-script.js"></script>
+</body>
+</html>

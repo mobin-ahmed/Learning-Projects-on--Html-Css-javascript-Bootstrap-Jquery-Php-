@@ -1,0 +1,61 @@
+# All Dynamic-Website's & Web-Application's has 3 parts:
+1.frontain(interface) 2.server-side 3.database
+* frontain's has 3 parts:
+  1.structure & content(by html) 2.presentation(by css) 3.behaviour(by javascript)
+
+# Dynamic-Website vs Web-Application?
+ans:
+*website--->anyone can access it[example-->prothom-alo.com]
+*web-application--->all can not access it but who are authorised only they can access it
+*there are two types of software:
+=>Desktop based software
+=>Web based software(web based software is called web-application)[example-->in gmail website,there has google-drive software]
+
+# what is html?
+ans: html is a tag based markup language
+* tag?-->ans:tag is a syntex.Duty of tag is show the contents in browser & define how contents will be shown
+=>syntex of tag---> <a></a>
+=>example of tag---> <a>click</a>
+*what is markup language?
+ans: sumation of all tags in html is called markup language
+
+# History: 
+*Sir tim barnar lee created the first web in 1989,created html in aug 1991
+*internet became in 1990
+*W3C instution is controling the html
+*html version-5 became in 2008
+
+# which knows the syntex of the language is called the server of that language
+* what is name of the server of the html language?
+ans: all browsers are the server of the html language
+* why <!DOCTYPE html> ?
+ans: when will use html version-5,should decleare it on top of the code-file
+* UTF-8 is global character set(one kind coding number,by this one can use any of the languages of the world in html page)
+
+# colspan="" is an attribute of the html.Duty of it is to marge the number of columns of a table
+# rowspan="" is an attribute of the html.Duty of it is to marge the number of rows of a table
+# to make caption of something use the tag <caption></caption>
+
+
+# <i></i>(for italic) = <em></em>(works as a keyword for search-engeens)
+# <b></b>(for bold)(normal) = <strong></strong>(works as a keyword for search-engeens)
+# <u></u>(for underline)(normal) = <ins></ins>(works as a keyword for search-engeens)
+
+
+# <sup></sup>(for power)
+# <sub></sub>(for base)
+
+# &lt;p&gt; = <p>, &lt;/p&gt; = </p>
+# <pre> is a tag.Anything written inside of <pre> tag,remains as same structure as how it's written.
+# <a href="" target=""></a> is a ankor tag.
+  *In href sets the link of sites or link of a page.
+  =>link should be written in two ways:
+   1) http://www.neub.com(link is not secure,invalid)
+   2) https://www.neub.com(link is secure,valid)
+
+  *In target while we pass like target="_blank",then the link will open in new tab
+
+  *<a></a> tag works in 3 ways:
+   1) link form my site to another site
+   2) link through my site's page to page
+   3) link in same page of the site 

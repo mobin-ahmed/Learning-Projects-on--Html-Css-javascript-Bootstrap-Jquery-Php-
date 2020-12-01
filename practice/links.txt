@@ -1,0 +1,12 @@
+# github.com
+# getbootstrap.com
+# jquery.com-->download jquery-->download development version
+# getbootstrap.com-->get started-->bootstrap CDN-->copy 2nd poppers link(for online work)(additonal/helper file)
+# copy the link from the source of poppers-->brows it-->cntrl A-->copy-->open js file in the js folder-->paste-->give the link to the poppers source 
+# jquery.com--->APIdocument--->take a glance to various methodes of jquery
+# http://goo.gl/XPJno--->address to give the feedback of trainer to orginization
+# jagobdnews24.com--->take glance on manchitro(btn)
+# laravel.com--->the basic--->validation--->form validation packages(take glance at)
+# regularExpression of email--->RegExp(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
+# PHP.net--->documentation--->english/what can php do?(rasmus lerdorf)
+# php(hypertext preprocessor,1994,1995-version-1) gtk tutorial(desktop base)
